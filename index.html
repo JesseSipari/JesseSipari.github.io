@@ -1,1 +1,64 @@
-Hello World
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title data-i18n="page_title">Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <nav class="language-switch">
+      <button onclick="setLanguage('fi')">
+        <img src="assets/flags/fi.svg" alt="Suomi" class="flag-icon" /> FI
+      </button>
+      <button onclick="setLanguage('en')">
+        <img src="assets/flags/gb.svg" alt="English" class="flag-icon" /> EN
+      </button>
+    </nav>
+    <h1 data-i18n="title"></h1>
+    <p data-i18n="intro"></p>
+    <nav class="main-nav">
+      <a href="#games" data-i18n="nav_games"></a>
+      <a href="#ai" data-i18n="nav_ai"></a>
+      <a href="#graphics" data-i18n="nav_graphics"></a>
+      <a href="#other" data-i18n="nav_other"></a>
+      <a href="#contact" data-i18n="nav_contact"></a>
+    </nav>
+  </header>
+
+  <main>
+    <section id="games">
+      <h2 data-i18n="section_game"></h2>
+      <p data-i18n="section_game_desc"></p>
+    </section>
+
+    <section id="ai">
+      <h2 data-i18n="section_ai"></h2>
+      <p data-i18n="section_ai_desc"></p>
+    </section>
+
+    <section id="graphics">
+      <h2 data-i18n="section_graphics"></h2>
+      <p data-i18n="section_graphics_desc"></p>
+    </section>
+
+    <section id="other">
+      <h2 data-i18n="section_other"></h2>
+      <p data-i18n="section_other_desc"></p>
+    </section>
+
+    <section id="contact">
+      <h2 data-i18n="section_contact"></h2>
+      <p>Email: <a href="mailto:sipari.jesse@gmail.com">sipari.jesse@gmail.com</a></p>
+      <p>GitHub: <a href="https://github.com/JesseSipari">github.com/JesseSipari</a></p>
+    </section>
+  </main>
+
+  <footer>
+    <p data-i18n="footer"></p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

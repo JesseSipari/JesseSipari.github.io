@@ -1,0 +1,20 @@
+{
+  "page_title": "Jesse Sipari – Portfolio",
+  "title": "Hello, I'm Jesse",
+  "intro": "I'm a Bachelor of Business IT, passionate about game development, AI, and software engineering.",
+  "nav_games": "Games",
+  "nav_ai": "AI & ML",
+  "nav_graphics": "2D/3D Graphics",
+  "nav_other": "Other Projects",
+  "nav_contact": "Contact",
+  "section_game": "Game Development",
+  "section_game_desc": "Projects and experiments related to game mechanics, engines, and prototypes.",
+  "section_ai": "AI & Machine Learning",
+  "section_ai_desc": "Work involving neural networks, game AI, and learning systems.",
+  "section_graphics": "2D/3D Graphics",
+  "section_graphics_desc": "Visual work including sprites, UI design and 3D modeling.",
+  "section_other": "Other Programming Projects",
+  "section_other_desc": "Other work like web development, tools or scripts.",
+  "section_contact": "Contact Information",
+  "footer": "© 2025 Jesse Sipari. Portfolio built with HTML, CSS, JS and love."
+}
